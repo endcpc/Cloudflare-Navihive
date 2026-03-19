@@ -4,7 +4,7 @@
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "navihive",
+    "name": "nav",
     "main": "worker/index.ts",
     "compatibility_date": "2025-04-05",
     "compatibility_flags": ["nodejs_compat"],  // 必须启用 Node.js 兼容
@@ -19,14 +19,14 @@
         {
             "binding": "DB",
             "database_name": "navigation-db",
-            "database_id": "f9ff228d-61ff-4cb8-a820-62095c1a1dbc"
+            "database_id": "013e3c8d-cd05-4220-b0f8-91cf4d2e4090"
         }
     ],
     "vars": {
         "AUTH_ENABLED": "true",
-        "AUTH_USERNAME": "admin",
-        "AUTH_PASSWORD": "$2a$12$ZSLUS9VrKsVf6yjgGUn2/ewLY9vqztqFpL99NExv6Kv3GjvyRnNEG",
-        "AUTH_SECRET": "$2y$10$IMVl9NM.Smo7xbPVyi9HEOBhcLxOPKEp9RBIEoijS4YbKjeyFjJFm"
+        "AUTH_USERNAME": "noccp",
+        "AUTH_PASSWORD": "d4d3e33ba38596121c09a5da723e3218a3ac439c",
+        "AUTH_SECRET": "3Q6KEqaqjdvTCFbvkS9LU1aitm/L+D8J++mmB9L/s70="
     }
 }
 
